@@ -1,7 +1,7 @@
 body {
     background: #0e0c0d;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .container-fluid {
   position: relative;
@@ -15,8 +15,9 @@ body {
 
 .landing__button {
     position: absolute;
-    top: 40%;
-    left: 60%;
+    top: 30%;
+    left: 58%;
+    width: 65px;
     border: 0px solid transparent;
     background: #fff;
 }
@@ -25,5 +26,21 @@ body {
   position: absolute;
   top: 50%;
   left:50%;
+  height: 800px;
   transform: translate(-50%,-50%);
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #0e0c0d;
+}
+
+
+/*
+    Reset
+*/
+*:focus{
+    outline: none;   
 }
